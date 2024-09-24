@@ -116,3 +116,10 @@ h1 {
     flex: 1 1 auto;
     padding: 20px 16px 70px;
 }
+
+@media screen and (max-width: 768px) {
+    #root{
+        padding-bottom: 20px;
+    }
+    
+}

@@ -3,14 +3,14 @@ import './header.scss'
 export default function Header() {
     return (
         <header>
-            <div className="ln-header-left">
-                <div className="ln-header-social">
-                    <a href="#" target="_blank" title="X" >
+            <div className="header-left">
+                <div className="social">
+                    <a href="#" title="X" >
                         <div className="icon">
                             <img src="/svgs/x.svg" alt="" />
                         </div>
                     </a>
-                    <a href="#" target="_blank" title="Telegram official channel" >
+                    <a href="#" title="Telegram" >
                         <div className="icon">
                             <img src="/svgs/telegram.svg" alt="" />
                         </div>
