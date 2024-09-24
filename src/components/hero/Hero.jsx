@@ -1,7 +1,3 @@
-import kambat1 from '../../assets/kambat1.png'
-import kambat2 from '../../assets/kambat2.png'
-import kambat3 from '../../assets/kambat3.png'
-import kambat4 from '../../assets/kambat4.png'
 
 export default function Hero() {
     return (
@@ -9,16 +5,16 @@ export default function Hero() {
             <div className="ln-content">
                 <div className="ln-content-hamster">
                     <div className="ln-content-hamster-image is-1">
-                        <img className="img-responsive" src={kambat1} alt="Hamster Kombat" />
+                        <img className="img-responsive" src='/images/kambat1.png' alt="Hamster Kombat" />
                     </div>
                     <div className="ln-content-hamster-image is-2">
-                        <img className="img-responsive" src={kambat2} alt="Hamster Kombat" />
+                        <img className="img-responsive" src='/images/kambat2.png' alt="Hamster Kombat" />
                     </div>
                     <div className="ln-content-hamster-image is-3">
-                        <img className="img-responsive" src={kambat3} alt="Hamster Kombat" />
+                        <img className="img-responsive" src='/images/kambat3.png' alt="Hamster Kombat" />
                     </div>
                     <div className="ln-content-hamster-image is-4">
-                        <img className="img-responsive" src={kambat4} alt="Hamster Kombat" />
+                        <img className="img-responsive" src='/images/kambat4.png' alt="Hamster Kombat" />
                     </div>
                 </div>
                 <h1>Unleash your inner CEO</h1>

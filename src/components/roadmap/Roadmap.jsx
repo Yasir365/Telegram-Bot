@@ -1,7 +1,3 @@
-import kambat5 from '../../assets/kambat5.png'
-import kambat6 from '../../assets/kambat6.png'
-import bg1 from '../../assets/bg1.png'
-import bg2 from '../../assets/bg2.png'
 
 export default function Roadmap() {
     return (
@@ -34,12 +30,12 @@ export default function Roadmap() {
                         </div>
                         <div className="ln-roadmap-hamster is-1">
                             <div className="ln-roadmap-hamster-bg">
-                                <img src={bg1} loading="lazy" alt="Hamster Kombat" />
+                                <img src='/images/bg1.png' loading="lazy" alt="Hamster Kombat" />
                             </div>
                             <div className="ln-roadmap-hamster-image">
                                 <img
                                     className="img-responsive"
-                                    src={kambat5}
+                                    src='/images/kambat5.png'
                                     alt="Hamster Kombat"
                                 />
                             </div>
@@ -86,18 +82,35 @@ export default function Roadmap() {
                         </div>
                         <div className="ln-roadmap-hamster is-2">
                             <div className="ln-roadmap-hamster-bg">
-                                <img src={bg2} loading="lazy" alt="Hamster Kombat" />
+                                <img src='/images/bg2.png' loading="lazy" alt="Hamster Kombat" />
                             </div>
                             <div className="ln-roadmap-hamster-image">
-                                {/* <picture class="is-hamster-image is-level-10"> */}
-                                {/* <source srcset="/images/hamsters/10.webp" type="image/webp"> */}
-                                <img
-                                    className="img-responsive"
-                                    src={kambat6}
-                                    alt="Hamster Kombat"
-                                />
-                                {/* </picture> */}
+                                <img className="img-responsive" src='/images/kambat6.png' alt="Hamster Kombat" />
                             </div>
+                        </div>
+                    </div>
+                    <div className="ln-roadmap-item is-completed">
+                        <div className="ln-roadmap-title">
+                            <p>August 2024</p>
+                        </div>
+                        <div className="ln-roadmap-content">
+                            <ul>
+                                <li className="is-completed"> Achievements </li>
+                                <li className="is-completed">Gaming platform launch</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="ln-roadmap-item is-completed">
+                        <div className="ln-roadmap-title">
+                            <p>September 2024</p>
+                        </div>
+                        <div className="ln-roadmap-content">
+                            <ul>
+                                <li className="is-completed">The Interlude season launch</li>
+                                <li className="is-completed">Implementing tech for the largest AirDrop</li>
+                                <li className="is-completed">TGE and AirDrop distribution</li>
+                                <li className="is-completed">$HMSTR Listing</li>
+                            </ul>
                         </div>
                     </div>
                     <div className="ln-roadmap-item">
@@ -106,16 +119,7 @@ export default function Roadmap() {
                         </div>
                         <div className="ln-roadmap-content">
                             <ul>
-                                <li className="is-completed">Achievements</li>
-                                <li>Implementing tech for the largest AirDrop</li>
-                                <li>AirDrop tasks</li>
-                                <li>Gaming platform launch</li>
-                                <li>TGE and AirDrop distribution</li>
-                                <li>AppStore, Google Play Store apps</li>
-                                <li>Live events</li>
-                                <li>Time-limited events</li>
-                                <li>Squads</li>
-                                <li>And much more</li>
+                                <li> The Roadmap will be released soon</li>
                             </ul>
                         </div>
                     </div>

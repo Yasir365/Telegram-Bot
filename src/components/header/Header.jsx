@@ -1,5 +1,4 @@
 import './header.scss'
-import logo from '../../assets/logo.png'
 
 export default function Header() {
     return (
@@ -21,7 +20,7 @@ export default function Header() {
             </div>
             <div className="ln-header-center">
                 <div className="ln-header-center-logo">
-                    <img className="img-responsive" src={logo} alt="Hamster Kombat" />
+                    <img className="img-responsive" src='/images/logo.png' alt="Hamster Kombat" />
                 </div>
                 <p>Digie Kombat</p>
             </div>
