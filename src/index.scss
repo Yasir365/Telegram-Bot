@@ -1,7 +1,7 @@
 .img-responsive {
     display: block;
     height: auto;
-    max-width: 100%
+    max-width: 100%;
 }
 
 * {
@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     touch-action: manipulation;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body,
@@ -20,14 +20,12 @@ html {
     text-rendering: optimizeLegibility !important;
     width: 100%;
     -webkit-font-smoothing: antialiased !important;
-    padding: 0 20px
+    padding: 0 20px;
 }
 
-html {
-    background-color: #14121c
-}
 
 body {
+    background-color: #14121c;
     color: #fff;
     cursor: default;
     font-family: Roboto Flex, sans-serif;
@@ -35,38 +33,39 @@ body {
     font-weight: 400;
     line-height: 1;
     min-width: 320px;
-    -webkit-overflow-scrolling: touch !important
+    -webkit-overflow-scrolling: touch !important;
+    overflow-x: hidden;
 }
 
 footer,
 section {
-    position: relative
+    position: relative;
 }
 
 .container {
     margin: 0 auto;
     max-width: 768px;
-    width: 100%
+    width: 100%;
 }
 
 img {
     -webkit-tap-highlight-color: transparent;
     -webkit-user-select: none;
     -moz-user-select: none;
-    user-select: none
+    user-select: none;
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 svg {
     transition: all .25s ease;
-    -webkit-transition: all .25s ease
+    -webkit-transition: all .25s ease;
 }
 
 ul {
-    list-style: none
+    list-style: none;
 }
 
 .button {
@@ -85,36 +84,36 @@ ul {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    width: 100%
+    width: 100%;
 }
 
 .icon {
     align-items: center;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 .icon svg {
     height: 100%;
-    width: 100%
+    width: 100%;
 }
 
 .is-hamster-image {
     display: block;
     height: auto;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .is-title,
 h1 {
     font-size: 20px;
     font-weight: 700;
-    line-height: 27px
+    line-height: 27px;
 }
 
 .content {
     background: #1c1f24;
     border-radius: 40px 40px 0 0;
     flex: 1 1 auto;
-    padding: 20px 16px 70px
+    padding: 20px 16px 70px;
 }

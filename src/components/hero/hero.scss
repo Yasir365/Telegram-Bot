@@ -1,27 +1,34 @@
+@mixin max($max-width) {
+    @media screen and (max-width: #{$max-width}) {
+        @content;
+    }
+}
+
+
 .ln-content {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 24px 0 48px;
-    text-align: center
+    text-align: center;
 }
 
 .ln-content .is-small-text {
     font-size: 12px;
-    line-height: 14px
+    line-height: 14px;
 }
 
 .ln-content-hamster {
     display: none;
     position: relative;
     width: 100%;
-    z-index: -1
+    z-index: -1;
 }
 
 @media (min-width: 1440px) {
     .ln-content-hamster {
-        display: block
+        display: block;
     }
 }
 
@@ -33,7 +40,7 @@
     pointer-events: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    user-select: none
+    user-select: none;
 }
 
 .ln-content-hamster-image img,
@@ -41,7 +48,7 @@
     display: block;
     height: auto;
     max-width: 100%;
-    width: 100%
+    width: 100%;
 }
 
 .ln-content-hamster-image:before {
@@ -52,37 +59,37 @@
     height: 75%;
     left: 0;
     position: absolute;
-    width: 100%
+    width: 100%;
 }
 
 .ln-content-hamster-image.is-1 {
-    left: 20px
+    left: 20px;
 }
 
 .ln-content-hamster-image.is-2 {
     left: 120px;
-    top: 200px
+    top: 200px;
 }
 
 .ln-content-hamster-image.is-3 {
-    right: 20px
+    right: 20px;
 }
 
 .ln-content-hamster-image.is-4 {
     right: 120px;
-    top: 200px
+    top: 200px;
 }
 
 .ln-content-exchanges {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 
 @media (min-width: 768px) {
     .ln-content-exchanges {
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 }
 
@@ -96,33 +103,33 @@
     justify-content: center;
     margin-left: -24px;
     padding: 10px;
-    width: 54px
+    width: 54px;
 }
 
 @media (min-width: 1024px) {
     .ln-content-exchange {
         border: 5px solid #13111c;
         height: 64px;
-        width: 64px
+        width: 64px;
     }
 }
 
 .ln-content-exchange:first-child {
-    margin-left: 0
+    margin-left: 0;
 }
 
 .ln-content h1 {
     font-size: 48px;
     font-weight: 700;
     line-height: 54px;
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 
 @media (min-width: 768px) {
     .ln-content h1 {
         font-size: 60px;
         line-height: 64px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 }
 
@@ -131,7 +138,7 @@
         font-size: 80px;
         font-weight: 700;
         line-height: 84px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 }
 
@@ -140,27 +147,27 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 
 .ln-content p:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .ln-content p.is-hidden-mobile {
-    display: none
+    display: none;
 }
 
 @media (min-width: 768px) {
     .ln-content p.is-hidden-mobile {
-        display: block
+        display: block;
     }
 }
 
 @media (min-width: 1024px) {
     .ln-content p {
         font-size: 24px;
-        line-height: 40px
+        line-height: 40px;
     }
 }
 
@@ -182,7 +189,7 @@
     margin-top: 36px;
     max-width: 471px;
     position: relative;
-    z-index: 3
+    z-index: 3;
 }
 
 @media (min-width: 768px) {
@@ -192,12 +199,12 @@
 }
 
 .ln-content .button span {
-    position: relativa;
-    z-index: 3
+    position: relative;
+    z-index: 3;
 }
 
 .ln-content .button:hover:after {
-    filter: blur(40px)
+    filter: blur(40px);
 }
 
 .ln-content .button:before {
@@ -206,7 +213,7 @@
     border-radius: 71px;
     height: calc(100% + 32px);
     width: calc(100% + 32px);
-    z-index: 2
+    z-index: 2;
 }
 
 .ln-content .button:after,
@@ -216,7 +223,7 @@
     left: 50%;
     position: absolute;
     top: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
 .ln-content .button:after {
@@ -227,12 +234,12 @@
     transition: all .25s ease;
     -webkit-transition: all .25s ease;
     width: calc(100% + 50px);
-    z-index: 1
+    z-index: 1;
 }
 
 @media (min-width: 768px) {
     .ln-content .button:after {
-        filter: blur(26px)
+        filter: blur(26px);
     }
 }
 
@@ -240,18 +247,17 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
 }
 
 @media (min-width: 768px) {
     .ln-bottom {
-        padding-bottom: 32px
+        padding-bottom: 32px;
     }
 }
 
-
 .exchange-list {
-    list-style: none
+    list-style: none;
 }
 
 .exchange-list li {
@@ -262,16 +268,16 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 6px;
-    padding: 12px 16px
+    padding: 12px 16px;
 }
 
 .exchange-list li:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .exchange-list li.is-disabled {
     cursor: not-allowed;
-    opacity: .5
+    opacity: .5;
 }
 
 .exchange-list-image {
@@ -280,34 +286,34 @@
     height: 46px;
     justify-content: center;
     margin-right: 16px;
-    width: 46px
+    width: 46px;
 }
 
 .exchange-list-image img {
     max-height: 40px;
-    max-width: 40px
+    max-width: 40px;
 }
 
 .exchange-list-content {
-    flex: 1 1 auto
+    flex: 1 1 auto;
 }
 
 .exchange-list-content p {
     font-size: 16px;
     font-weight: 700;
     line-height: 1;
-    margin-bottom: 6px
+    margin-bottom: 6px;
 }
 
 .exchange-list-content p:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .exchange-list-content span {
     color: #8b8e93;
     display: block;
     font-size: 14px;
-    line-height: 1
+    line-height: 1;
 }
 
 .exchange-list-bonus {
@@ -315,23 +321,23 @@
     display: flex;
     font-size: 12px;
     font-weight: 700;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
 
 .exchange-list-bonus p {
-    margin-left: 6px
+    margin-left: 6px;
 }
 
 .exchange-image {
-    overflow: hidden
+    overflow: hidden;
 }
 
 .exchange-image.is-bingx {
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .exchange-image.is-bingx.is-border-6 {
-    border-radius: 6px
+    border-radius: 6px;
 }
 
 .exchange-image img,
@@ -339,5 +345,5 @@
     display: block;
     height: auto;
     max-width: 100%;
-    width: 100%
+    width: 100%;
 }

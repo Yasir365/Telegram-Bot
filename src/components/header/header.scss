@@ -27,12 +27,6 @@ header {
 .ln-header-left {
     order: 2;
     padding-top: 16px;
-
-    // @include max(768px) {
-    //     order: 1;
-    //     padding-top: 32px;
-        
-    // }
 }
 
 @media (min-width: 768px) {
