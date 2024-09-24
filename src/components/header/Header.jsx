@@ -5,12 +5,12 @@ export default function Header() {
         <header>
             <div className="ln-header-left">
                 <div className="ln-header-social">
-                    <a className="is-x" href="#" target="_blank" title="X" >
+                    <a href="#" target="_blank" title="X" >
                         <div className="icon">
                             <img src="/svgs/x.svg" alt="" />
                         </div>
                     </a>
-                    <a className="is-telegram" href="#" target="_blank" title="Telegram official channel" >
+                    <a href="#" target="_blank" title="Telegram official channel" >
                         <div className="icon">
                             <img src="/svgs/telegram.svg" alt="" />
                         </div>
