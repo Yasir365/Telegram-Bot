@@ -23,7 +23,7 @@
 }
 
 .ln-content-hamster-image {
-    height: 200px;
+    height: 255px;
     position: absolute;
     width: 200px;
     -webkit-tap-highlight-color: transparent;
@@ -38,7 +38,7 @@
     bottom: 0;
     content: "";
     display: block;
-    height: 75%;
+    height: 55%;
     left: 0;
     position: absolute;
     width: 100%;
@@ -50,7 +50,7 @@
 
 .ln-content-hamster-image.is-2 {
     left: 120px;
-    top: 200px;
+    top: 260px;
 }
 
 .ln-content-hamster-image.is-3 {
@@ -59,7 +59,7 @@
 
 .ln-content-hamster-image.is-4 {
     right: 120px;
-    top: 200px;
+    top: 260px;
 }
 
 .ln-content-hamster-image img {

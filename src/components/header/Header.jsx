@@ -22,7 +22,7 @@ export default function Header() {
                 <div className="ln-header-center-logo">
                     <img className="img-responsive" src='/images/logo.png' alt="Hamster Kombat" />
                 </div>
-                <p>Digie Kombat</p>
+                <p>Digie Kambat</p>
             </div>
             <div className="ln-header-right">
                 <a className="button" href="/docs/HK_WP_03.pdf" target="_blank" title="Whitepaper" >

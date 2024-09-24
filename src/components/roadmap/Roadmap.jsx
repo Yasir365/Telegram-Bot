@@ -37,7 +37,7 @@ export default function Roadmap() {
                             <div className="ln-roadmap-hamster-image">
                                 <img
                                     className="img-responsive"
-                                    src='/images/kambat5.png'
+                                    src='/images/kambat.png'
                                     alt="Hamster Kombat"
                                 />
                             </div>
@@ -87,7 +87,7 @@ export default function Roadmap() {
                                 <img src='/images/bg2.png' loading="lazy" alt="Hamster Kombat" />
                             </div>
                             <div className="ln-roadmap-hamster-image">
-                                <img className="img-responsive" src='/images/kambat6.png' alt="Hamster Kombat" />
+                                <img className="img-responsive" src='/images/kambat.png' alt="Hamster Kombat" />
                             </div>
                         </div>
                     </div>
