@@ -33,42 +33,42 @@ export default function Hero() {
                     </div>
                     <div className="ln-content-exchange">
                         <div className="exchange-image is-crypto_com">
-                            <img src="/svgs/exchange3.svg" alt="" />
+                            <img src="/svgs/exchange1.svg" alt="" />
                         </div>
                     </div>
                     <div className="ln-content-exchange">
                         <div className="exchange-image is-okx">
-                            <img src="/svgs/exchange4.svg" alt="" />
+                            <img src="/svgs/exchange2.svg" alt="" />
                         </div>
                     </div>
                     <div className="ln-content-exchange">
                         <div className="exchange-image is-bingx">
-                            <img src="/svgs/exchange5.svg" alt="" />
+                            <img src="/svgs/exchange1.svg" alt="" />
                         </div>
                     </div>
                     <div className="ln-content-exchange">
                         <div className="exchange-image is-htx">
-                            <img src="/svgs/exchange6.svg" alt="" />
+                            <img src="/svgs/exchange2.svg" alt="" />
                         </div>
                     </div>
                     <div className="ln-content-exchange">
                         <div className="exchange-image is-kucoin">
-                            <img src="/svgs/exchange7.svg" alt="" />
+                            <img src="/svgs/exchange1.svg" alt="" />
                         </div>
                     </div>
                     <div className="ln-content-exchange">
                         <div className="exchange-image is-gate_io">
-                            <img src="/svgs/exchange8.svg" alt="" />
+                            <img src="/svgs/exchange2.svg" alt="" />
                         </div>
                     </div>
                     <div className="ln-content-exchange">
                         <div className="exchange-image is-mexc">
-                            <img src="/svgs/exchange9.svg" alt="" />
+                            <img src="/svgs/exchange1.svg" alt="" />
                         </div>
                     </div>
                     <div className="ln-content-exchange">
                         <div className="exchange-image is-bitget">
-                            <img src="/svgs/exchange10.svg" alt="" />
+                            <img src="/svgs/exchange2.svg" alt="" />
                         </div>
                     </div>
                 </div>
