@@ -5,7 +5,7 @@
 }
 
 
-.ln-content {
+.hero {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -14,15 +14,14 @@
     text-align: center;
 }
 
-
-.ln-content-hamster {
+.hero .overlay {
     display: none;
     position: relative;
     width: 100%;
     z-index: -1;
 }
 
-.ln-content-hamster-image {
+.hero .overlay-image {
     height: 255px;
     position: absolute;
     width: 200px;
@@ -33,7 +32,7 @@
     user-select: none;
 }
 
-.ln-content-hamster-image:before {
+.hero .overlay-image:before {
     background: linear-gradient(180deg, #13111c00 .24%, #13111c0f 26.21%, #13111c 50.19%);
     bottom: 0;
     content: "";
@@ -44,39 +43,39 @@
     width: 100%;
 }
 
-.ln-content-hamster-image.is-1 {
+.hero .overlay-image.is-1 {
     left: 20px;
 }
 
-.ln-content-hamster-image.is-2 {
+.hero .overlay-image.is-2 {
     left: 120px;
     top: 260px;
 }
 
-.ln-content-hamster-image.is-3 {
+.hero .overlay-image.is-3 {
     right: 20px;
 }
 
-.ln-content-hamster-image.is-4 {
+.hero .overlay-image.is-4 {
     right: 120px;
     top: 260px;
 }
 
-.ln-content-hamster-image img {
+.hero .overlay-image img {
     display: block;
     height: auto;
     max-width: 100%;
     width: 100%;
 }
 
-.ln-content-exchanges {
+.hero .exchanges {
     align-items: center;
     display: flex;
     justify-content: center;
     margin-bottom: 12px;
 }
 
-.ln-content-exchange {
+.hero .image-wrapper {
     align-items: center;
     background: #2a2832;
     border: 3px solid #13111c;
@@ -89,18 +88,18 @@
     width: 54px;
 }
 
-.ln-content-exchange:first-child {
+.hero .image-wrapper:first-child {
     margin-left: 0;
 }
 
-.ln-content h1 {
+.hero h1 {
     font-size: 48px;
     font-weight: 700;
     line-height: 54px;
     margin-bottom: 12px;
 }
 
-.ln-content p {
+.hero p {
     color: #fffc;
     font-size: 18px;
     font-weight: 400;
@@ -108,19 +107,19 @@
     margin-bottom: 12px;
 }
 
-.ln-content p:last-child {
+.hero p:last-child {
     margin-bottom: 0;
 }
 
-.ln-content p.is-hidden-mobile {
+.hero p.hidden-mobile {
     display: none;
 }
 
-.ln-content-button {
+.hero .button-container {
     width: 100%;
 }
 
-.ln-content .button {
+.hero .button {
     background: linear-gradient(90deg, #2253ff 1.46%, #1744e1 99.81%);
     border: 1px solid #fff;
     border-radius: 71px;
@@ -137,17 +136,16 @@
     z-index: 3;
 }
 
-
-.ln-content .button span {
+.hero .button span {
     position: relative;
     z-index: 3;
 }
 
-.ln-content .button:hover:after {
+.hero .button:hover:after {
     filter: blur(40px);
 }
 
-.ln-content .button:before {
+.hero .button:before {
     background: linear-gradient(90deg, #2253ff 1.46%, #3a66ff00 50.8%, #2253ff 99.81%);
     border: 2px solid #2252fd;
     border-radius: 71px;
@@ -156,8 +154,8 @@
     z-index: 2;
 }
 
-.ln-content .button:after,
-.ln-content .button:before {
+.hero .button:after,
+.hero .button:before {
     content: "";
     display: block;
     left: 50%;
@@ -166,7 +164,7 @@
     transform: translate(-50%, -50%);
 }
 
-.ln-content .button:after {
+.button:after {
     background: linear-gradient(90deg, #2253ff 1.46%, #3a66ff82 50.8%, #2253ff 99.81%);
     border-radius: 71px;
     filter: blur(20px);
@@ -177,11 +175,11 @@
     z-index: 1;
 }
 
-.exchange-list {
+.hero .exchange-list {
     list-style: none;
 }
 
-.exchange-list li {
+.hero .exchange-list li {
     align-items: center;
     background-color: #272a2f;
     border-radius: 20px;
@@ -192,16 +190,16 @@
     padding: 12px 16px;
 }
 
-.exchange-list li:last-child {
+.hero .exchange-list li:last-child {
     margin-bottom: 0;
 }
 
-.exchange-list li.is-disabled {
+.hero .exchange-list li.is-disabled {
     cursor: not-allowed;
     opacity: .5;
 }
 
-.exchange-list-image {
+.hero .exchange-list-image {
     align-items: center;
     display: flex;
     height: 46px;
@@ -210,34 +208,34 @@
     width: 46px;
 }
 
-.exchange-list-image img {
+.hero .exchange-list-image img {
     max-height: 40px;
     max-width: 40px;
 }
 
-.exchange-list-content {
+.hero .exchange-list-content {
     flex: 1 1 auto;
 }
 
-.exchange-list-content p {
+.hero .exchange-list-content p {
     font-size: 16px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 6px;
 }
 
-.exchange-list-content p:last-child {
+.hero .exchange-list-content p:last-child {
     margin-bottom: 0;
 }
 
-.exchange-list-content span {
+.hero .exchange-list-content span {
     color: #8b8e93;
     display: block;
     font-size: 14px;
     line-height: 1;
 }
 
-.exchange-list-bonus {
+.hero .exchange-list-bonus {
     align-items: center;
     display: flex;
     font-size: 12px;
@@ -245,24 +243,11 @@
     justify-content: flex-end;
 }
 
-.exchange-list-bonus p {
+.hero .exchange-list-bonus p {
     margin-left: 6px;
 }
 
-.exchange-image {
-    overflow: hidden;
-}
-
-.exchange-image.is-bingx {
-    border-radius: 10px;
-}
-
-.exchange-image.is-bingx.is-border-6 {
-    border-radius: 6px;
-}
-
-.exchange-image img,
-.exchange-image svg {
+.hero .image-wrapper img {
     display: block;
     height: auto;
     max-width: 100%;
@@ -270,55 +255,55 @@
 }
 
 @media (min-width: 1440px) {
-    .ln-content-hamster {
+    .hero .overlay {
         display: block;
     }
 }
 
 @media (min-width: 1024px) {
-    .ln-content-exchange {
+    .hero .image-wrapper {
         border: 5px solid #13111c;
         height: 64px;
         width: 64px;
     }
 
-    .ln-content h1 {
+    .hero h1 {
         font-size: 80px;
         font-weight: 700;
         line-height: 84px;
         margin-bottom: 20px;
     }
 
-    .ln-content p {
+    .hero p {
         font-size: 24px;
         line-height: 40px;
     }
 }
 
 @media (min-width: 768px) {
-    .ln-content-exchanges {
+    .hero .exchanges {
         margin-bottom: 20px;
     }
 
-    .ln-content h1 {
+    .hero h1 {
         font-size: 60px;
         line-height: 64px;
         margin-bottom: 20px;
     }
 
-    .ln-content p.is-hidden-mobile {
+    .hero p.hidden-mobile {
         display: block;
     }
 
-    .ln-content .button {
+    .hero .button {
         margin-top: 72px;
     }
 
-    .ln-content .button:after {
+    .hero .button:after {
         filter: blur(26px);
     }
 
-    .ln-bottom {
+    .hero .ln-bottom {
         padding-bottom: 32px;
     }
 }
