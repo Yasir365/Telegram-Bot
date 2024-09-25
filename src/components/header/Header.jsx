@@ -18,14 +18,14 @@ export default function Header() {
                     <p>Join us!</p>
                 </div>
             </div>
-            <div className="ln-header-center">
-                <div className="ln-header-center-logo">
+            <div className="header-center">
+                <div className="logo-wrapper">
                     <img className="img-responsive" src='/images/logo.png' alt="Hamster Kombat" />
                 </div>
                 <p>Digie Kambat</p>
             </div>
-            <div className="ln-header-right">
-                <a className="button" href="/docs/HK_WP_03.pdf" target="_blank" title="Whitepaper" >
+            <div className="header-right">
+                <a className="button" href="/files/rules.pdf" target="_blank" title="Whitepaper" >
                     <p>Whitepaper</p>
                     <div className="icon">
                         <img src="/svgs/right-arrow.svg" alt="" />
